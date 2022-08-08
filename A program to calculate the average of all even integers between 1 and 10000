@@ -1,10 +1,10 @@
-// Sum of all even numbers between 10 and 100 (inclusive) 
+// Sum of all even numbers between 1 and 10000 (inclusive) 
 class Main { 
 	public static void main(string[] args){ 
 		// Variable to store the sum of all even numbers 
 		int sum = 0; 
  
-		for(int i = 10; i <= 100; i++){ 
+		for(int i = 1; i <= 10000; i++){ 
 			if(i % 2 == 0) {	// Checks if i is even 
 				sum += i; // The same as sum = sum + i 
 			} 
